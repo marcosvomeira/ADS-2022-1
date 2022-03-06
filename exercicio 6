@@ -1,0 +1,20 @@
+Algoritmo Exercicio 6
+
+VAR
+slrfx, cmss, vendeu:real
+
+inicio
+
+escreva (" Qual seu salário? ")
+leia (slrfx)
+
+escreva (" Quanto voce vendeu? ")
+leia (vendeu)
+
+cmss <- vendeu * 0.04
+
+escreval (" Sua comissão foi de:", cmss)
+
+escreval (" Seu salário líquido é:", slrfx + cmss)
+
+Fimalgoritmo
