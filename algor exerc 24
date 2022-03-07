@@ -1,0 +1,17 @@
+Algoritmo Exercicio 24
+
+VAR
+reais, alem, dólar, librea:real
+
+inicio
+
+Escreva (" Quantos reais você tem? ")
+leia (reais)
+
+alem <- reais * 2
+dolar <- reais * 1.8
+libra <- reais * 3.57
+
+Escreval (" Você tem ",alem, " Marcos alemães,",dólar," dolares e",libra," Libras esterlinas,")
+
+fimalgoritmo
